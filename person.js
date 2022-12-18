@@ -4,10 +4,10 @@ class Person {
     this.name = name;
   }
   sayMyName() {
-    return `My name is ${this.name}!`;
+    return `Hello, my name is ${this.name}!`;
   }
+  
 }
-
 module.exports = {
   Person,  
 };
